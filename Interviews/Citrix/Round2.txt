@@ -1,0 +1,21 @@
+class Car{
+    public void Run(){
+        //Business Logic
+    }
+}
+
+interface ICar{
+    void Run();
+}
+
+class Maruti : ICar{
+
+}
+
+
+class Car{
+    
+}
+
+
+

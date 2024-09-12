@@ -1,0 +1,27 @@
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+
+
+example
+
+stack- [(]
+
+//
+{
+    ')':'(',
+    '{':'}'
+}
+
+['[' , '('] 
+
+logic
+
+if(open brackets) stack.push()
+else if(closed brackets){
+    if(stack.) return false
+    if(map.get(')') == stack[stack.length-1]) stack.pop()
+    else if(map.get(')') != stack[stack.length-1]) return false
+}
+
+
+return stack.length==0

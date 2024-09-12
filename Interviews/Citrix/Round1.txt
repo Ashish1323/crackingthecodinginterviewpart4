@@ -1,0 +1,77 @@
+there is a linked list, find out weather it has a loop or not?
+
+1->2->3->4->2
+
+class Node{
+    constructor(val){
+        this.val=val;
+        this.next=null;
+    }
+}
+
+
+function hasCycle(head){
+    if(head==null) return false
+
+    let slow=head;
+    let fast=head;
+
+    while(fast !)
+
+}
+
+{[((())]}
+
+([{()[][]{}}])
+
+
+function validPar(str){
+    let stack=[]
+
+    let parMap= new Map();
+    {
+        ')':'(',
+        '}':'{',
+        ']':'['
+    }
+
+    for(let i of s){
+        if(if(i=='(' || i=='{' || i=='[')) stack.push(i)
+        else if(parMap.has(i)) {
+            if(stack.length==0) return false
+            if(parMap.get(i) == stack[stack.length-1]){
+                stack.pop()
+            }
+            else{
+                return false 
+            }
+        }
+    }
+
+    return stack.length==0
+}
+
+1. check key is present
+ update its position
+
+2. add
+    item is not present add to cache
+
+3 full 
+    remove last item
+
+4. remove val
+    cache is full 
+
+
+
+
+
+
+
+
+
+
+
+
+
